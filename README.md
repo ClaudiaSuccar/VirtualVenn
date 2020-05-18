@@ -7,7 +7,7 @@ String[] firstArray = {"Table", "Lamp", "Stove", "Sofa", "Desk"}; // Initialize 
 String[] secondArray = {"Chair", "Desk", "Fridge", "Lamp", "Bin"}; // Initialize and declare second array.
 ```
 2. The two sets of arrays are printed to the console using for loops and indexing.
-3. The similarities between the two array are found using a nested for loop.
+3. Find matching indexes between the two arrays using a nested for loop.
 ```java
 for(int i = 0; i < firstArray.length; i++) { // Iterates through both the first array and second array using indexing.
   for(int j = 0; j < secondArray.length; j++) {
