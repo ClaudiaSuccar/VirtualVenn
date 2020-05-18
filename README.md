@@ -6,7 +6,15 @@ Like a Venn diagram, the program distinguishes similarities between two initiali
 String[] firstArray = {"Table", "Lamp", "Stove", "Sofa", "Desk"}; // Initialize and declare first array.
 String[] secondArray = {"Chair", "Desk", "Fridge", "Lamp", "Bin"}; // Initialize and declare second array.
 ```
-2. The two sets of arrays are printed to the console using for loops and indexing.
+
+2. The two sets of arrays are printed to the console using for loops and indexing. \
+_Example:_
+```java
+for(int i = 0; i < firstArray.length; i++) { // Outputs the first array.
+			System.out.println(firstArray[i]);
+		}
+```
+
 3. Find matching indexes between the two arrays using a nested for loop.
 ```java
 for(int i = 0; i < firstArray.length; i++) { // Iterates through both the first array and second array using indexing.
@@ -16,3 +24,25 @@ for(int i = 0; i < firstArray.length; i++) { // Iterates through both the first 
     } 
   }
 }
+```
+
+4. The following is output to the console:
+```bash
+First array is: 
+Table
+Lamp
+Stove
+Sofa
+Desk
+
+Second array is: 
+Chair
+Desk
+Fridge
+Lamp
+Bin
+
+Similarities are: 
+Lamp 
+Desk
+```
