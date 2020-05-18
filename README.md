@@ -8,6 +8,7 @@ String[] secondArray = {"Chair", "Desk", "Fridge", "Lamp", "Bin"}; // Initialize
 ```
 
 2. The two sets of arrays are printed to the console using for loops and indexing. \
+\
 _Example:_
 ```java
 for(int i = 0; i < firstArray.length; i++) { // Outputs the first array.
