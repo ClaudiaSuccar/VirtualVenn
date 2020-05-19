@@ -47,3 +47,7 @@ Similarities are:
 Lamp 
 Desk
 ```
+
+# What I Learned
+- How to iterate through each index in an array.
+- How to create a nested for loop that compares two different arrays.
